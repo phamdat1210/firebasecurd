@@ -1,0 +1,28 @@
+{
+  "name": "curdfirebase",
+  "homepage": "https://nodemon.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": 2500
+  }
+}
